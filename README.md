@@ -51,6 +51,9 @@ entrar.click()
 baterpt = navegador.find_element_by_xpath('//*[@id="uHeader"]/nav/ul/li[2]/a')
 baterpt.click()
 
+
+
+==================================== Whatsapp===============================
 import os
 import time
 import datetime, random
@@ -59,8 +62,6 @@ numero = int(input('Qual é o telefone.: '))
 chamado = input('Qual é o Chamado.: ')
 nome = input('Qual é o Nome.: ')
 
-
-==================================== Whatsapp===============================
 def saudacao():
    mensagem = '\n'
 hora = datetime.datetime.now().hour
