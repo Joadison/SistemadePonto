@@ -11,11 +11,11 @@ time.sleep(1)
 
 usuar=pont.find_element_by_xpath('//*[@id="P101_USERNAME"]')
 usuar.click()
-usuar.send_keys('400469')
+usuar.send_keys('')
 
 senha = pont.find_element_by_xpath('//*[@id="P101_PASSWORD"]')
 senha.click()
-senha.send_keys('J_ms20=15*')
+senha.send_keys('')
 
 entrar =  pont.find_element_by_xpath('//*[@id="B4361864787786875"]/span')
 entrar.click()
